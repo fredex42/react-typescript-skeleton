@@ -19,9 +19,6 @@ var config = {
             buffer: require.resolve("buffer/")
         },
     },
-    optimization: {
-        minimizer: [new TerserPlugin()]
-    },
     module : {
         rules : [
             {
